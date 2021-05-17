@@ -1,5 +1,5 @@
 import React from 'react'
-import {Image, Grid, GridColumn, Segment, Divider } from 'semantic-ui-react'
+import {Image, Divider } from 'semantic-ui-react'
 import imageSrc from './backCountry/LogoOne.png'
 import styles from './navbar.css'
 import Gallery from './Gallery'

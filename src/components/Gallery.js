@@ -1,6 +1,5 @@
-import {Grid, GridColumn, GridRow, Image, Segment, Button, Divider, Card, Icon } from'semantic-ui-react'
+import {Image, Card } from'semantic-ui-react'
 import Badger from './backCountry/Badger.jpg'
-import {useState, render} from 'react'
 import React, {Component} from 'react'
 import Bobcat from './backCountry/Bobcat.jpg'
 import Deer1 from './backCountry/Deer1.jpg'
@@ -9,7 +8,6 @@ import Deer3 from './backCountry/Deer3.jpg'
 import Dipped from './backCountry/Dipped.jpg'
 import Skull from './backCountry/Skull.jpg'
 import Skull2 from './backCountry/Skull2.jpg'
-import styles from './navbar.css'
 import {SButton, } from './StyledComponents'
 
 class Gallery extends Component {   

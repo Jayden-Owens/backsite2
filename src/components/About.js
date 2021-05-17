@@ -1,11 +1,10 @@
-import React, {Component} from'react'
-import { Segment, Tab , Modal, Button, Container, Header } from "semantic-ui-react";
+import React from'react'
+import {Container, Header } from "semantic-ui-react";
 
 
 
 
 const About = () => {
- const [open, setOpen] = React.useState(false)
 
 return(
     <div style={{

@@ -4,8 +4,6 @@ import './index.css';
 import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar'
-import About from './components/About'
-import Gallery from './components/Gallery'
 
 ReactDOM.render(
   <React.StrictMode>
