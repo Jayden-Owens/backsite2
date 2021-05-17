@@ -54,12 +54,15 @@ class Gallery extends Component {
             }}>
 
       <h2>Gallery</h2>
+      <br/>
     <Card className='center'>
     <Card.Content>
     <Image src={this.state.picList[this.state.index]} style={{"maxHeight":"80%","maxWidth":"80%", boarderRadius: '10%'}} />
       <Card.Meta>
       <SButton  onClick={this.onClickPrevious}> Previous </SButton>
                 <SButton onClick={this.onClickNext} > Next Slide</SButton>
+                <br/>
+                <br/>
       </Card.Meta>
     </Card.Content>
   </Card>
