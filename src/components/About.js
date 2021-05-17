@@ -36,6 +36,9 @@ return(
         they decided Taxidermy could be just that, a business they would love and a way they could help fellow hunters.
         As hunters themselves they understand expectations and needs of customers. Contact trace with questions, specifications, and pricing 
       </p>
+      <br/>
+      <br/>
+      <br/>
     </Container>
 </div>
 )
