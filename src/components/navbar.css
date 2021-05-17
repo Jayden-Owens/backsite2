@@ -1,0 +1,59 @@
+h2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #799F87;
+    color: white;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #bb9d59;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .center{
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+
+    .button {
+      background-color: #799F87; /* Green */
+      border: none;
+      color: rgb(241, 240, 240);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    .left{
+      text-align: left;
+      display: flex; 
+      align-items: left;
+      justify-content: left;
+      }
+
+   .gameName:hover {
+    color: Grey !important;    
+    }
+
+    .logoCard:hover {
+      transform: scale(1.01);
+      transition: .2s ease-in-out !important;
+    }
