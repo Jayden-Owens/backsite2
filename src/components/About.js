@@ -20,13 +20,13 @@ return(
       <p style={{marginLeft: '2rem', marginRight: '2rem'}}>
         <h3>Phone # 801-864-9174</h3>
         <br/>
-        <p>Trace is one of the Co-Founders and a great Taxidermist! Born and raised a hunter, his passion for wildlife has been a huge part of his life.
+        <p>Trace is one of the Co-Founders and a great taxidermist! Born and raised a hunter, his passion for wildlife has been a huge part of his life.
             His strive for quality allows him to deliver a great product time after time. Trace is very easy-going, fun, and great to work with.
         </p>
       </p>
       <h1 style={{marginLeft: '2rem'}}>Roger</h1>
       <p style={{marginLeft: '2rem', marginRight: '2rem'}}>
-      Roger is the Co-Founder of Backcountry Taxidermy and also a great Taxidermist! From a young age, he developed a love and passion for outdoors and hunting, something he would later pass on to his children.
+      Roger is the Co-Founder of Backcountry taxidermy and also a great taxidermist! From a young age, he developed a love and passion for outdoors and hunting, something he would later pass on to his children.
         His professionalism and love for people drive him to deliver a fantastic product. Roger is very fun and easy to talk to and understands the needs of customers.
       </p>
       <h1 style={{marginLeft: '2rem'}}>How we came to be</h1>
