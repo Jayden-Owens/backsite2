@@ -17,6 +17,8 @@ export default function ContactUs() {
             console.log(error.text);
         });
     }
+  
+    
     return (
         <div style={{
             zIndex: "-1",
@@ -27,11 +29,11 @@ export default function ContactUs() {
         <form className="contact-form" onSubmit={sendEmail}>
           <label>Name</label><br/>
           <input type="text" name="name" style={{width: '80%'}}/><br/>
-          <label>Email</label><br/>
+          <label>Phone Number</label><br/>
           <input type="text" name="phone" style={{width: '80%'}} /><br/>
           <label>Description</label><br/>
           <textarea name="description" centered style={{width: '80%'}}/><br/><br/>
-          <Button type="submit" value="Send" style={{ text: 'white'}}> Submit </Button>
+          <Button onClick={() => window.location.reload(false)} type="submit" value="Send" style={{ text: 'white'}}> Submit </Button>
           <br/>
           <br/>
         </form>
