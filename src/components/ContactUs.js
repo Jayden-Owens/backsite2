@@ -10,7 +10,7 @@ export default function ContactUs() {
     function sendEmail(e) {
       e.preventDefault();
   
-      emailjs.sendForm('TracesGmail', 'TracesGmail', e.target, "")
+      emailjs.sendForm('TracesGmail', 'TracesGmail', e.target, "user_EtXW6MpURf6VmoLWceaIV")
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -33,7 +33,7 @@ export default function ContactUs() {
           <input type="text" name="phone" style={{width: '80%'}} /><br/>
           <label>Description</label><br/>
           <textarea name="description" centered style={{width: '80%'}}/><br/><br/>
-          <Button onClick={() => window.location.reload(false)} type="submit" value="Send" style={{ text: 'white'}}> Submit </Button>
+          <Button onClick={()=>{ alert('Email Sent!'); }} type="submit" value="Send" style={{ text: 'white'}}> Submit </Button>
           <br/>
           <br/>
         </form>
