@@ -5,6 +5,7 @@ import styles from './navbar.css'
 import Gallery from './Gallery'
 import {ContainerSec} from './StyledComponents'
 import About from './About'
+import ContactUs from './ContactUs'
 
 
 const Home = () =>  (
@@ -30,6 +31,7 @@ const Home = () =>  (
 </div>
 <Gallery/>
 <About/>
+<ContactUs/>
 
     </>    
     

@@ -15,7 +15,7 @@ class Gallery extends Component {
 
     state = {
         index: 0, 
-        picList: [Deer1, Badger, Bobcat, Deer2, Deer3, Dipped, Skull, Skull2]
+        picList: [Deer1, Badger, Bobcat, Deer2, Deer3, Dipped, Skull, Skull2,]
       }
       
       onClickNext= () => {
