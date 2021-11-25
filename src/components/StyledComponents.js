@@ -8,7 +8,7 @@ justify-content: center;
 `
 
 export const SButton = styled(Button)`
-background-color: #799F87;
+background-color: transparent;
 text: white;
 border-radius: 50%;
 `

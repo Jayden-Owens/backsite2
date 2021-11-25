@@ -9,6 +9,7 @@ import Dipped from './backCountry/Dipped.jpg'
 import Skull from './backCountry/Skull.jpg'
 import Skull2 from './backCountry/Skull2.jpg'
 import {SButton, } from './StyledComponents'
+import backgroundimg from './Galley_background.jpg'
 
 class Gallery extends Component {   
 
@@ -45,19 +46,20 @@ class Gallery extends Component {
       render() {
         return (
             <>
-            <div 
-            style={{
-            zIndex: "-1",
-            backgroundColor: "lightGray",
-            width: "100%",
-            height: "100%",
-            }}>
+             <div style={{
+        zIndex: "-1",
+        width: "100%",
+        backgroundImage: `url(${backgroundimg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundBlendMode: 'luminosity'
+      }}>
 
       <h2>Gallery</h2>
       <br/>
     <Card className='center'>
     <Card.Content>
-    <Image src={this.state.picList[this.state.index]} style={{"maxHeight":"80%","maxWidth":"80%", boarderRadius: '10%'}} />
+    <Image src={this.state.picList[this.state.index]} style={{"width":"50%", boarderRadius: '10%'}} />
       <Card.Meta>
       <SButton  onClick={this.onClickPrevious}> Previous </SButton>
                 <SButton onClick={this.onClickNext} > Next Slide</SButton>

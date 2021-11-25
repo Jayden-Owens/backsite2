@@ -6,6 +6,7 @@ import Gallery from './Gallery'
 import {ContainerSec} from './StyledComponents'
 import About from './About'
 import ContactUs from './ContactUs'
+import backgroundimages from './HomeImage.jpg'
 
 
 const Home = () =>  (
@@ -14,16 +15,17 @@ const Home = () =>  (
     
     <div style={{
       zIndex: "-1",
-      backgroundColor: "lightGray",
       width: "100%",
-      height: "100%",
+      backgroundImage: `url(${backgroundimages})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
     }}>
 
     <ContainerSec>
 
         <Image
         className={styles.logoCard}
-        style={{width: "80%"}}
+        style={{width: "38%"}}
         src={imageSrc}
         />
     </ContainerSec>
